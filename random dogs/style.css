@@ -1,0 +1,102 @@
+body {
+  background-image: url('https://st2.depositphotos.com/1106005/8589/i/450/depositphotos_85895990-stock-photo-orange-and-white-doggy-tile.jpg');
+  background-size: cover;
+  color: black;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  margin-right: 10px; 
+}
+
+#search-button, #random-button {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#search-button {
+  border-radius: 0 5px 5px 0;
+  margin-right: 10px;
+}
+
+#random-button {
+  border-radius: 5px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#dog-info {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#dog-image {
+  width: 300px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#dogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.dog {
+  width: 45%;
+  margin: 10px 0;
+}
+
+.dog img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
